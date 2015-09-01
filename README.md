@@ -29,3 +29,14 @@ url = "map"
 url = url.translate(tbl)
 ```
 Finally hit at `http://www.pythonchallenge.com/pc/def/ocr.html`
+
+### Level 2
+```py
+import urllib2,re,collections
+r = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/ocr.html').read()[843:]  # filter shit
+print collections.Counter(r)    # shows that only alphabets are occurring once. So let's filter them out
+code = re.findall("[a-zA-Z]", r)
+code = "".join(code)
+print code  # prints equality
+```
+Finally hit at `http://www.pythonchallenge.com/pc/def/equality.html`
