@@ -6,15 +6,16 @@ Random hacks at http://www.pythonchallenge.com/
 Compute 2**38 and hit at http://www.pythonchallenge.com/pc/def/274877906944.html
 ```
 ### Level 1
-Two ways are there:
+#####Two ways are there:
 
-1. Run this command in your terminal 
+######1. Run this command in your terminal 
 
 ```sh
 echo "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj." | tr [a-xy-z] [c-za-b]
 echo "map" | tr [a-xy-z] [c-za-b]
 ```
-2. Python script
+
+######2. Python script
 ```py
 import string
 tbl = string.maketrans(
