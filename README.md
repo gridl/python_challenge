@@ -28,4 +28,4 @@ print st.translate(tbl) # i hope you didnt translate it by hand. thats what comp
 url = "map"
 url = url.translate(tbl)
 ```
-
+Finally hit at `http://www.pythonchallenge.com/pc/def/ocr.html`
